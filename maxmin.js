@@ -11,6 +11,6 @@ function maxmin(array1) {
     })
     return [myMin,myMax];
 }
-array1 = Array.from({length:10}, () => Math.floor(Math.random() *100);
+array1 = Array.from({length:10}, () => Math.floor(Math.random() *100));
 console.log(array1);
 console.log(maxmin(array1));
